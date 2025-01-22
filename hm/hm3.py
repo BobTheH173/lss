@@ -2,7 +2,7 @@ import random
 
 
 class Human:
-    def __init__(self, name="Human", job=None, home=None, car=None):
+    def __init__(self, name="Human", job=None, home=None, computer=None, car=None):
         self.name = name
         self.money = 100
         self.gladness = 50
@@ -10,9 +10,13 @@ class Human:
         self.job = job
         self.car = car
         self.home = home
+        self.computer = computer
 
     def get_home(self):
         self.home = House()
+
+    def get_computer(self):
+        self.computer = Computer(100)
 
     def get_car(self):
         self.car = Auto(brands_of_car)
@@ -47,6 +51,12 @@ class Human:
             else:
                 self.to_repair()
                 return
+
+        if self.computer.state > 30:
+            self.computer.type()
+        else:
+            self.computer.to_repair()
+
         self.money += self.job.salary
         self.gladness -= self.job.gladness_less
         self.satiety -= 4
@@ -98,6 +108,7 @@ class Human:
         print(f"{home_indexes:^50}", "\n")
         print(f"Food – {self.home.food}")
         print(f"Mess – {self.home.mess}")
+        print(f"PC State - {self.computer.state}", "\n")
         car_indexes = f"{self.car.brand} car indexes"
         print(f"{car_indexes:^50}", "\n")
         print(f"Fuel – {self.car.fuel}")
@@ -120,6 +131,9 @@ class Human:
         if self.home is None:
             print("Settled in the house")
             self.get_home()
+        if self.computer is None:
+            self.get_computer()
+            print("Got a computer")
         if self.car is None:
             self.get_car()
             print(f"I bought a car {self.car.brand}")
@@ -182,6 +196,21 @@ class House:
         self.food = 0
 
 
+class Computer:
+    def __init__(self, state):
+        self.state = state
+
+    def type(self):
+        if self.state > 0:
+            self.state -= random.randint(1, 20)
+        else:
+            pass
+
+    def to_repair(self):
+        self.state += random.randint(1, nick.gladness)
+        nick.gladness -= 5
+
+
 job_list = {
     "Java developer":
         {"salary": 50, "gladness_less": 10},
@@ -212,6 +241,6 @@ class Job:
 
 
 nick = Human(name="Nick")
-for day in range(1, 8):
+for day in range(1, 16):
     if nick.live(day) == False:
         break
