@@ -1,0 +1,8 @@
+Next logging message - 2025-02-05 17:17:46,257:DEBUG - 1 - ls8_4 - debug
+Next logging message - 2025-02-05 17:17:46,257:INFO - 1 - ls8_4 - info
+Next logging message - 2025-02-05 17:17:46,257:ERROR - 1 - ls8_4 - Exception
+Traceback (most recent call last):
+  File "C:\Users\Nazar\PycharmProjects\lss\ls8_4.py", line 11, in <module>
+    print(10/0)
+          ~~^~
+ZeroDivisionError: division by zero
