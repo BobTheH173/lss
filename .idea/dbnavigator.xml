@@ -27,9 +27,7 @@
     <last-used-providers />
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files>
-      <object connection-id="8e55c89f-2e5a-45f6-9b9b-84fbeb2065e3" object-ref="schemas/main/tables/Animals" />
-    </open-files>
+    <open-files />
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="5d409a91-0fc6-4a0d-842a-2c8ccb65716b" />

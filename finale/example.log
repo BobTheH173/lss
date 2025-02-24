@@ -1,0 +1,40 @@
+2025-02-23 15:54:38,571 - 
+Welcome to example farm
+Your farm has:
+Difficulty: 1
+Money: 300 (Post tax)
+Total income: 0
+Animals: Cows=0, Pigs=0, Chickens=0
+Land: Free=5, Occupied=0
+
+2025-02-23 15:54:38,572 - 
+Iterating example farm..
+
+2025-02-23 15:54:38,572 - Welcome to example farm Your farm has: Difficulty: 1 Money: 300 (Post tax) [10] Total income: 0 Animals: Cows=0, Pigs=0, Chickens=0 Land: Free=5, Occupied=0
+2025-02-23 15:54:41,290 - Going to view taxes
+2025-02-23 15:54:41,793 - 
+Iterating example farm..
+
+2025-02-23 15:54:41,793 - Welcome to example farm Your farm has: Difficulty: 1 Money: 300 (Post tax) [10] Total income: 0 Animals: Cows=0, Pigs=0, Chickens=0 Land: Free=5, Occupied=0
+2025-02-23 15:54:44,456 - Going to the shop
+2025-02-23 15:54:49,978 - Going to the land shop
+2025-02-23 15:54:57,243 - Bought 3 land [small field]
+2025-02-23 15:55:01,751 - Exiting land shop..
+2025-02-23 15:55:13,071 - Going to the animal shop
+2025-02-23 15:55:17,137 - Bought 1 chickens
+2025-02-23 15:55:19,607 - Exiting animal shop
+2025-02-23 15:55:22,610 - Exiting shop..
+2025-02-23 15:55:22,611 - 
+Iterating example farm..
+
+2025-02-23 15:55:22,611 - Welcome to example farm Your farm has: Difficulty: 1 Money: 95 (Post tax) [14] Total income: 15 Animals: Cows=0, Pigs=0, Chickens=1 Land: Free=6, Occupied=1
+2025-02-23 15:55:26,433 - Going to view taxes
+2025-02-23 15:55:29,486 - 
+Iterating example farm..
+
+2025-02-23 15:55:29,486 - Welcome to example farm Your farm has: Difficulty: 1 Money: 95 (Post tax) [14] Total income: 15 Animals: Cows=0, Pigs=0, Chickens=1 Land: Free=6, Occupied=1
+2025-02-23 15:55:32,099 - Going to pass the time
+2025-02-23 15:55:32,099 - 
+Iterating example farm..
+
+2025-02-23 15:55:37,778 - Welcome to example farm Your farm has: Difficulty: 1 Money: 101 (Post tax) [14] Total income: 15 Animals: Cows=0, Pigs=0, Chickens=1 Land: Free=6, Occupied=1
